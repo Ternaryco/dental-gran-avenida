@@ -4,5 +4,8 @@ media:
 content:
   - name: services
     label: Services
-    path: src/_services
     type: collection
+    path: src/_services
+    fields: 
+      - name: title
+        type: string
